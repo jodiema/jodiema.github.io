@@ -35,61 +35,17 @@ h1 {
   background-color: white;
 }
 
-
 .container:hover .overlay {
   opacity: 0.6;
 }
 
-.container-vertical:hover .overlay {
-  opacity: 0.6;
-}
-
-
 .text {
   color: black;
   font-size: 20px;
-  position: absolute;
+  font-weight: bold;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-.text-vertical {
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 46%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.rotate270 {
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-
-.rotate90 {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.rotate180 {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.vertical {
-  margin-top: 150px;
-  margin-bottom: 250px;
 }
