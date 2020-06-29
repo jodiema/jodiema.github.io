@@ -1,13 +1,15 @@
 
 body {
 	text-align: center;
-	color: black;
-	background: white;
-	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-	margin-top: 50px;
+  color: #313233;;
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 70px;
+  font-size: 30pt;
+  letter-spacing: 1px;
 }
 
 .container {
@@ -41,6 +43,7 @@ h1 {
 
 .text {
   color: black;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: bold;
   position: relative;
