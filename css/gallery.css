@@ -13,8 +13,10 @@ h2 {
     font-family: 'Roboto', sans-serif;
     padding-top: 50px;
     padding-bottom: 20px;
-    font-size: 30pt;
-    text-align: center;
+    font-size: 34pt;
+    text-align: left;
+    margin-left: 5%;
+    letter-spacing: 0.05em;
 }
 
 .maintab {
@@ -26,6 +28,7 @@ h2 {
     font-size: 16pt;
     letter-spacing: 0.05em;
     text-align: center;
+    margin-left: 10px;
 }
 
 /* Style the tab */
@@ -49,9 +52,10 @@ h2 {
     text-align: center;
     cursor: pointer;
     transition: 0.2s;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.08em;
+    margin-left: 10px;
 }
 
 /* Change background color of buttons on hover */
