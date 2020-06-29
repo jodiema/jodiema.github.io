@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<base target="_blank">
-	<title>Photography</title>
-	<link href="https://fonts.googleapis.com/css?family=Raleway:200|Roboto:200" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/images.css">
-</head>
-<body>
-	<h1>Photography</h1>
-	<div class="gallery">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Roboto:200|Raleway:200" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    </head>
+    <body>
 
-		<div class="container">
-		<!--a href="kyoto1.jpg" title="Kyoto, Japan"-->
-			<img class="image" src="images/kyoto1.jpg" alt="Arashiyama Bamboo Grove in Kyoto, Japan"/><!--/a-->
-			<div class="overlay">
-				<div class="text">Arashiyama Bamboo Grove &nbsp;|&nbsp; Kyoto, Japan</div>
-			</div>
-		</div>
+        <h2>Photography</h2>
 
-		<div class="container">
-			<img class="image" src="images/kyoto2.jpg" alt="Historic District in Kyoto, Japan"/>
-			<div class="overlay">
-				<div class="text">Higashiyama District &nbsp;|&nbsp; Kyoto, Japan</div>
-			</div>
-		</div>
+        <div class="tab">
 
-		<div class="container">
-			<img class="image" src="images/osaka1.jpg" alt="Umeda Sky Building View of Osaka, Japan"/>
-			<div class="overlay">
-				<div class="text">Umeda Sky Building &nbsp;|&nbsp; Osaka, Japan</div>
-			</div>
-		</div>
+            <div class="maintab">Japan</div>
+            <button class="tablinks" onclick="openCity(event, 'Kyoto')" id="defaultOpen">Kyoto</button>
+            <button class="tablinks" onclick="openCity(event, 'Osaka')">Osaka</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 
-	</div>
-</body>
-</html>
+            <div class="maintab">United Kingdom</div>
+            <button class="tablinks" onclick="openCity(event, 'St. Andrews')">St. Andrews</button>
+            <button class="tablinks" onclick="openCity(event, 'Edinburgh')">Edinburgh</button>
+            <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+            
+        </div>
+
+        <div id="Kyoto" class="tabcontent">
+            <div class="container">
+                <img class="image" src="images/kyoto1.jpg" alt="Arashiyama Bamboo Grove in Kyoto, Japan"/><!--/a-->
+                <div class="overlay">
+                    <div class="text">Arashiyama Bamboo Grove</div>
+                </div>
+            </div>
+
+            <div class="container">
+                <img class="image" src="images/kyoto2.jpg" alt="Historic District in Kyoto, Japan"/>
+                <div class="overlay">
+                    <div class="text">Higashiyama District</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="Osaka" class="tabcontent">
+            <div class="container">
+                <img class="image" src="images/osaka1.jpg" alt="Umeda Sky Building View of Osaka, Japan"/>
+                <div class="overlay">
+                    <div class="text">Umeda Sky Building</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Tokyo" class="tabcontent">
+        </div> 
+
+    </body>
+    <script src="js/gallery.js"></script>
+</html> 
