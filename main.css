@@ -10,8 +10,8 @@ html {
 }
 
 body {
-	color: #414f57;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	color: #414f65;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 14pt;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
@@ -39,7 +39,6 @@ body {
 img#profile {
 	border-radius: 50%;
 	border: 4px solid #EADEEA;
-
 }
 
 #links img {
@@ -73,9 +72,3 @@ img#profile {
 	text-align: center;
 	font-size: 10pt;
 }
-
-
-
-
-
-
