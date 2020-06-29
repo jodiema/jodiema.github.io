@@ -86,8 +86,6 @@ hr {
 
 
 /* images */
-
-
 .container {
   position: relative;
   width: 90%;
@@ -131,8 +129,9 @@ hr {
 }
 
 
-
 /* collapsible */
+.collapsible {
+}
 
 .active, .collapsible:hover {
 }
