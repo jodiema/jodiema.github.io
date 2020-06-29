@@ -10,16 +10,25 @@
         <h2>Photography</h2>
 
         <div class="tab">
-            <div class="maintab">Japan</div>
-            <button class="tablinks" onclick="openCity(event, 'Kyoto')" id="defaultOpen">Kyoto</button>
-            <button class="tablinks" onclick="openCity(event, 'Osaka')">Osaka</button>
-            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+            <!--div class="maintab">Japan</div-->
+            <button class="collapsible" id="maintab">Japan</button>
+            <div class="content">
+                <button class="tablinks" onclick="openCity(event, 'Kyoto')" id="defaultOpen">Kyoto</button>
+                <button class="tablinks" onclick="openCity(event, 'Osaka')">Osaka</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+            </div>
 
-            <div class="maintab">United Kingdom</div>
-            <button class="tablinks" onclick="openCity(event, 'St. Andrews')">St. Andrews</button>
-            <button class="tablinks" onclick="openCity(event, 'Edinburgh')">Edinburgh</button>
-            <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-            
+            <hr>
+
+            <button class="collapsible" id="maintab">United Kingdom</button>
+            <div class="content">
+                <button class="tablinks" onclick="openCity(event, 'St. Andrews')">St. Andrews</button>
+                <button class="tablinks" onclick="openCity(event, 'Edinburgh')">Edinburgh</button>
+                <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+            </div>
+
+            <hr>
+
         </div> 
 
         <div id="Kyoto" class="tabcontent">
