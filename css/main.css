@@ -1,74 +1,74 @@
 
 html {
-	background: 
-	linear-gradient(to right, rgba(113,148,236,0.6), rgba(181,58,178,0.4), rgba(181,123,228,0.5)),
-	url("../images/background.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    background: 
+    linear-gradient(to right, rgba(113,148,236,0.6), rgba(181,58,178,0.4), rgba(181,123,228,0.5)),
+    url("../images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body {
-	color: #414f65;
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 14pt;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
+    color: #414f65;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
 .center-box-container {
-	text-align: center;
+    text-align: center;
 }
 
 .center-box {
-	background-color: white;
-	width: 480px;
-	height: 500px;
-	border-radius: 10px;
-	/*border: 2px solid #EAE6ED;*/
-	margin-top: 5%;
-	display: inline-block;
+    background-color: white;
+    width: 480px;
+    height: 500px;
+    border-radius: 10px;
+    /*border: 2px solid #EAE6ED;*/
+    margin-top: 5%;
+    display: inline-block;
 }
 
 #profile-pic {
-	display: inline-block;
-	margin-top: 40px;
+    display: inline-block;
+    margin-top: 40px;
 }
 
 img#profile {
-	border-radius: 50%;
-	border: 5px solid #EADEEA;
+    border-radius: 50%;
+    border: 5px solid #EADEEA;
 }
 
 #links img {
-	width: 40px;
-	height: 40px;
-	background: none;
-	opacity: 1;
+    width: 40px;
+    height: 40px;
+    background: none;
+    opacity: 1;
 }
 
 #links img:hover {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 #contact {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	padding-top: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
 }
 
 #contact li {
-	display: inline;
-	padding: 2px;
+    display: inline;
+    padding: 2px;
 }
 
 #footer {
-	color: white;
-	position: fixed;
-	bottom: 5px;
-	width: 100%;
-	text-align: center;
-	font-size: 10pt;
+    color: white;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 10pt;
 }
